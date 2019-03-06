@@ -1,15 +1,75 @@
-body, a {
-    background-color: black;
-    /* text-decoration: none; */
-    color:white;
+body {
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,4f4f4f+26,4f4f4f+63,000000+100 */
+    background: rgb(0, 0, 0);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(0, 0, 0) 0%, rgb(79, 79, 79) 26%, rgb(79, 79, 79) 63%, rgb(0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(0, 0, 0) 0%, rgb(79, 79, 79) 26%, rgb(79, 79, 79) 63%, rgb(0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(79, 79, 79) 26%, rgb(79, 79, 79) 63%, rgb(0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
-.row{
+body,
+a {
+    /* background-color: black; */
+    /* text-decoration: none; */
+    color: white;
+}
+
+#headerLogo{
+    height: 55px;
+}
+
+.bg-dark{
+    background-color: #3d3d3daf!important;
+}
+
+/* .row {
     text-align: center;
     font-size: 0.7em;
+} */
+
+.thumbnail{
+    width: 250px;
 }
 
-.link{
+.test{
+    background-color: blue;
+}
+
+.cards {
+    background-color: rgba(255, 255, 255, 0.781);
+    color: black;
+    text-align: left;
+}
+
+
+
+
+
+.mainImage {
+    width: 500px;
+}
+
+hr {
+    border-top: 1px solid rgba(220, 168, 11);
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 50px;
+}
+
+.link {
     width: 40px;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -17,6 +77,4 @@ body, a {
 }
 
 
-@media screen and (max-width: 768px) {
-    
-}
+@media screen and (max-width: 768px) {}
