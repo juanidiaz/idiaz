@@ -42,12 +42,21 @@
             <div class="row">
                 <div class="col-1 align-self-center"></div>
                 <div class="col-10 align-self-center">
-                    <a href="/home.html"><img src="./assets/images/logo_02_black.jpg" class="mainImage"></a>
+                    <a href="/home.html"><img src = "./assets/images/logoblack.jpg" onmouseover="logoOver(this)" onmouseout="logo(this)" class="mainImage"></a>
                 </div>
                 <div class="col-1 align-self-center"></div>
             </div>
         </section>
     </div>
+
+    <script type="text/javascript">
+        function logo(x) {
+            x.src = "./assets/images/logoblack.jpg";
+        };
+        function logoOver(x) {
+            x.src = "./assets/images/logoblackover.jpg";
+        };
+    </script>
 
     <div class="row" id="universal-footer">
         <div class="col-12 footer-content-top">
@@ -58,7 +67,7 @@
                             class="fab fa-github"></i></a>
                     <!-- <a href="http://www.idiaz.ca" style="color:white;" target="_none"><i class="fas fa-globe"></i></a> -->
                     <a href="https://www.linkedin.com/in/juanidiaz/" style="color:white;" target="new"><i
-                            class="fab fa-linkedin"></i>   </a>
+                            class="fab fa-linkedin"></i> </a>
                     <a href="mailto:jdi@idiaz.ca" style="color:white;"><i class="fas fa-envelope-open"></i></a>
                 </h3>
             </div>
